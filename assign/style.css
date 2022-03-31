@@ -1,0 +1,88 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p
+{
+    margin: 0;
+}
+.headding
+{}
+.testOutput
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+.testOutput .box {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background: #60e66c;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    height: 60px;
+    width: 60px;
+}
+#cpmDiv,#wpmDiv
+{
+    padding: 10px;
+    
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background: #60e66c;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    height: 60px;
+    width: 60px;
+}
+.outputText
+{
+    font-size: 14px;
+}
+.outpotResoult
+{
+    font-size: 32px;
+}
+.displayInput
+{
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background: #60e66c;
+    box-shadow: 5px 5px 5px black;
+    margin-bottom: 20px;
+}
+.inputText
+{
+    width: 500px;
+    padding: 8px 10px;
+    border: 0;
+    background: #c3d4c5;
+    box-shadow: 5px 5px 5px black;
+}
+#cpmDiv, #wpmDiv
+{
+    display: none;
+}
+
+.button
+{
+    display: none;
+    background: greenyellow;
+    border: none;
+    margin-top: 22px;
+    width: 80px;
+    height: 36px;
+    border-radius: 5px;
+}

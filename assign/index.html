@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <!-- heading -->
+        <div class="headding">
+            Test your Typing Speed
+        </div>
+        <!-- Display Otput -->
+        <div class="testOutput" >
+            <div id="cpmDiv">
+                <p class="outputText">CPM</p>
+                <p class="outpotResoult" id="cpm">0</p>
+            </div>
+            <div id="wpmDiv">
+                <p class="outputText">WPM</p>
+                <p class="outpotResoult" id="wpm">0</p>
+            </div>
+            <div class="box">
+                <p class="outputText">Errors</p>
+                <p class="outpotResoult" id="errors">0</p>
+            </div>
+            <div class="box">
+                <p class="outputText">Time</p>
+                <p class="outpotResoult" id="time">60s</p>
+            </div>
+            <div class="box">
+                <p class="outputText">%Accuracy</p>
+                <p class="outpotResoult" id="accuracy">100</p>
+            </div>
+        </div>
+        <!-- display info -->
+        <div class="displayInput">
+            <p id="testInfo">
+                Click On the Area below to start the game.
+            </p>
+        </div>
+        <!-- input text -->
+        <input type="text" id="inputText"  class="inputText" placeholder="Start typing here..." onclick="startTest()" >
+        <button id="reset" class="button" onClick="window.location.reload();">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
